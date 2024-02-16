@@ -5,6 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "live-reload": "npx nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "@erickwendel/meme-maker": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
